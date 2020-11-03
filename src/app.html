@@ -1,0 +1,16 @@
+<template>
+  <require from="bootstrap/dist/css/bootstrap.min.css"></require>
+  <require from="@fortawesome/fontawesome-free/css/all.min.css"></require>
+  <require from="toastr/toastr.scss"></require>
+  <require from="./styles.scss"></require>
+  <require from="./nav-bar.html"></require>
+
+  <nav-bar router.bind="router"></nav-bar>
+  <div class="page-host">
+    <div class="row">
+      <div class="col-sm-6 offset-sm-3">
+        <router-view></router-view>
+      </div>
+    </div>
+  </div>
+</template>

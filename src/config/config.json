@@ -1,0 +1,5 @@
+{
+  "name": "AureliaCountries",
+  "version": "1.0",
+  "api": "https://restcountries.eu/rest/v2"
+}

@@ -1,0 +1,17 @@
+<template>
+  <require from="components/overlay/overlay"></require>
+  <div class="d-flex flex-column pt-3">
+    <label class="col-form-label ml-2" t="countries.chooseCountry"></label>
+    <div class="form-group">
+      <select value.bind="selectedCountry" class="form-control">
+        <option model.bind="null" t="forms.choose"></option>
+        <option repeat.for="country of model" model.bind="country">${country.name}
+        </option>
+      </select>
+    </div>
+    <div class="d-flex justify-content-center" if.bind="selectedCountry" t="countries.capital" t-params.bind="selectedCountry">
+      
+    </div>
+  </div>
+  <overlay is-busy.bind="isBusy"></overlay>
+</template>

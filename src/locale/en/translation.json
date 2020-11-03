@@ -1,0 +1,15 @@
+{
+  "navBar": {
+    "countries": "Countries"
+  },
+  "countries": {
+    "chooseCountry": "Choose country from list to see its capital",
+    "capital": "Capital of {{name}} is {{capital}}."
+  },
+  "forms": {
+    "choose": "Choose..."
+  },
+  "errors": {
+    "canNotFetchCountries": "Can not fetch countries."
+  }
+}
